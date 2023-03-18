@@ -1,5 +1,4 @@
 # SDL2-Game
-
 A simple game engine that I worked on in Summer 2021
 
 It features an entity component system, and loading of tiled sprite 'levels'
