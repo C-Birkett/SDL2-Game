@@ -1,3 +1,4 @@
 *.json
 *.AppImage
 /.clangd/
+/.build/
