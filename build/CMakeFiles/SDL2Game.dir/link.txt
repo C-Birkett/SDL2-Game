@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/SDL2Game.dir/main.cpp.o  -o SDL2Game  src/libMy_library.a -L/usr/lib/x86_64-linux-gnu  -lSDL2 -lSDL2_image 

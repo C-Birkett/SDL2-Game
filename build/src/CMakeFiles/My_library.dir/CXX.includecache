@@ -1,0 +1,222 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/Collision/Collision.h
+SDL2/SDL.h
+-
+
+../src/ECS/AnimationComponent.h
+
+../src/ECS/ColliderComponent.h
+ECS.h
+../src/ECS/ECS.h
+string.h
+-
+SDL2/SDL.h
+-
+
+../src/ECS/Components.h
+ECS.h
+../src/ECS/ECS.h
+TransformComponent.h
+../src/ECS/TransformComponent.h
+SpriteComponent.h
+../src/ECS/SpriteComponent.h
+KeyboardController.h
+../src/ECS/KeyboardController.h
+ColliderComponent.h
+../src/ECS/ColliderComponent.h
+TileComponent.h
+../src/ECS/TileComponent.h
+AnimationComponent.h
+../src/ECS/AnimationComponent.h
+
+../src/ECS/ECS.h
+iostream
+-
+vector
+-
+memory
+-
+algorithm
+-
+bitset
+-
+array
+-
+cassert
+-
+map
+-
+
+../src/ECS/KeyboardController.h
+Game/Game.h
+../src/ECS/Game/Game.h
+ECS.h
+../src/ECS/ECS.h
+
+../src/ECS/SpriteComponent.h
+ECS.h
+../src/ECS/ECS.h
+AnimationComponent.h
+../src/ECS/AnimationComponent.h
+TextureManager/TextureManager.h
+../src/ECS/TextureManager/TextureManager.h
+SDL2/SDL.h
+-
+vector
+-
+
+../src/ECS/TileComponent.h
+ECS.h
+../src/ECS/ECS.h
+SDL2/SDL.h
+-
+stdio.h
+-
+
+../src/ECS/TransformComponent.h
+ECS.h
+../src/ECS/ECS.h
+Vector2D/Vector2D.h
+../src/ECS/Vector2D/Vector2D.h
+
+../src/Game/Game.h
+stdio.h
+-
+iostream
+-
+cmath
+-
+math.h
+-
+vector
+-
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+SDL2/SDL_error.h
+-
+SDL2/SDL_surface.h
+-
+SDL2/SDL_video.h
+-
+SDL2/SDL_render.h
+-
+
+../src/Map/Map.h
+string
+-
+vector
+-
+
+../src/TextureManager/TextureManager.h
+Game/Game.h
+../src/TextureManager/Game/Game.h
+
+../src/Vector2D/Vector2D.h
+iostream
+-
+
+/home/conan/Work/SDL2 Game/src/ECS/AnimationComponent.h
+
+/home/conan/Work/SDL2 Game/src/ECS/ECS.h
+iostream
+-
+vector
+-
+memory
+-
+algorithm
+-
+bitset
+-
+array
+-
+cassert
+-
+map
+-
+
+/home/conan/Work/SDL2 Game/src/ECS/KeyboardController.cpp
+KeyboardController.h
+/home/conan/Work/SDL2 Game/src/ECS/KeyboardController.h
+Game/Game.h
+/home/conan/Work/SDL2 Game/src/ECS/Game/Game.h
+TransformComponent.h
+/home/conan/Work/SDL2 Game/src/ECS/TransformComponent.h
+SpriteComponent.h
+/home/conan/Work/SDL2 Game/src/ECS/SpriteComponent.h
+SDL2/SDL_keyboard.h
+-
+
+/home/conan/Work/SDL2 Game/src/ECS/KeyboardController.h
+Game/Game.h
+/home/conan/Work/SDL2 Game/src/ECS/Game/Game.h
+ECS.h
+/home/conan/Work/SDL2 Game/src/ECS/ECS.h
+
+/home/conan/Work/SDL2 Game/src/ECS/SpriteComponent.h
+ECS.h
+/home/conan/Work/SDL2 Game/src/ECS/ECS.h
+AnimationComponent.h
+/home/conan/Work/SDL2 Game/src/ECS/AnimationComponent.h
+TextureManager/TextureManager.h
+/home/conan/Work/SDL2 Game/src/ECS/TextureManager/TextureManager.h
+SDL2/SDL.h
+-
+vector
+-
+
+/home/conan/Work/SDL2 Game/src/ECS/TransformComponent.h
+ECS.h
+/home/conan/Work/SDL2 Game/src/ECS/ECS.h
+Vector2D/Vector2D.h
+/home/conan/Work/SDL2 Game/src/ECS/Vector2D/Vector2D.h
+
+/home/conan/Work/SDL2 Game/src/Game/Game.cpp
+Game.h
+/home/conan/Work/SDL2 Game/src/Game/Game.h
+TextureManager/TextureManager.h
+/home/conan/Work/SDL2 Game/src/Game/TextureManager/TextureManager.h
+Map/Map.h
+/home/conan/Work/SDL2 Game/src/Game/Map/Map.h
+ECS/Components.h
+/home/conan/Work/SDL2 Game/src/Game/ECS/Components.h
+Vector2D/Vector2D.h
+/home/conan/Work/SDL2 Game/src/Game/Vector2D/Vector2D.h
+Collision/Collision.h
+/home/conan/Work/SDL2 Game/src/Game/Collision/Collision.h
+ECS/SpriteComponent.h
+/home/conan/Work/SDL2 Game/src/Game/ECS/SpriteComponent.h
+
+/home/conan/Work/SDL2 Game/src/Game/Game.h
+stdio.h
+-
+iostream
+-
+cmath
+-
+math.h
+-
+vector
+-
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+SDL2/SDL_error.h
+-
+SDL2/SDL_surface.h
+-
+SDL2/SDL_video.h
+-
+SDL2/SDL_render.h
+-
+
